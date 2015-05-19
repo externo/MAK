@@ -1,0 +1,95 @@
+/*
+* Launcher V1.1
+* Copyright 2015, Limitless LLC
+* www.limitless.company
+*/
+
+/* #Demo
+================================================== */
+
+	section.demo {
+		background-color: #111111;
+		position: relative;
+	}
+
+	section.demo .inner {
+		display: inline-block;
+	}
+
+	section.demo div.variation {
+		background-color: #111111;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-bottom: none;
+		border-right: 1px solid #ffffff;
+		cursor: pointer;
+		display: inline;
+		float: left;
+		font-family: "Gotham";
+		position: relative;
+		text-align: center;
+		box-sizing: border-box !important;
+		-moz-box-sizing:border-box !important;
+		-webkit-box-sizing:border-box !important;
+		transition: width 0.3s ease-in-out 0s;
+		-webkit-transition: width 0.3s ease-in-out 0s;
+		-moz-transition: width 0.3s ease-in-out 0s;
+		-ms-transition: width 0.3s ease-in-out 0s;
+		-o-transition: width 0.3s ease-in-out 0s;
+	}
+
+	section.demo div.variation:first-child {
+		background-position: left center;
+	}
+
+	section.demo div.variation:last-child {
+		background-position: right center;
+		border-right: none;
+	}
+
+	section.demo div.variation .overlay {
+		background-color: rgba(0,0,0,0.75);
+		bottom: 0px;
+		left: 0px;
+		position: absolute !important;
+		right: 0px;
+		top: 0px;
+	}
+
+	section.demo div.variation .number {
+		border-bottom: 1px solid #ffffff;
+		color: #ffffff;
+		font-size: 13px;
+		font-weight: 600;
+		margin: 0px auto 70px;
+		padding-bottom: 15px;
+		width: 50px;
+	}
+
+	section.demo div.variation .title {
+		color: #ffffff;
+		font-size: 16px;
+		font-weight: 300;
+		letter-spacing: 0.025em;
+		margin-top: 20px;
+		text-transform: capitalize;
+	}
+
+	@media only screen and (max-width: 767px) {
+
+
+		section.demo div.variation {
+			border-bottom: 1px solid #ffffff;
+			border-right: none !important;
+		}
+
+		section.demo div.variation:last-child {
+			border-bottom: none;
+		}
+
+		section.demo div.variation .number {
+			display: none;
+		}
+
+	}

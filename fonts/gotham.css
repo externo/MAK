@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 900;
+    src: url('gotham-ultra.eot');
+    src: url('gotham-ultra.eot') format('embedded-opentype'),
+         url('gotham-ultra.svg#GothamUltra') format('svg'),
+         url('gotham-ultra.woff') format('woff'),
+         url('gotham-ultra.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 800;
+    src: url('gotham-black.eot');
+    src: url('gotham-black.eot') format('embedded-opentype'),
+         url('gotham-black.svg#GothamBlack') format('svg'),
+         url('gotham-black.woff') format('woff'),
+         url('gotham-black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 700;
+    src: url('gotham-bold.eot');
+    src: url('gotham-bold.eot') format('embedded-opentype'),
+         url('gotham-bold.svg#GothamBold') format('svg'),
+         url('gotham-bold.woff') format('woff'),
+         url('gotham-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 600;
+    src: url('gotham-medium.eot');
+    src: url('gotham-medium.eot') format('embedded-opentype'),
+         url('gotham-medium.svg#GothamMedium') format('svg'),
+         url('gotham-medium.woff') format('woff'),
+         url('gotham-medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 400;
+    src: url('gotham-book.eot');
+    src: url('gotham-book.eot') format('embedded-opentype'),
+         url('gotham-book.svg#GothamBook') format('svg'),
+         url('gotham-book.woff') format('woff'),
+         url('gotham-book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 300;
+    src: url('gotham-light.eot');
+    src: url('gotham-light.eot') format('embedded-opentype'),
+         url('gotham-light.svg#GothamLight') format('svg'),
+         url('gotham-light.woff') format('woff'),
+         url('gotham-light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 200;
+    src: url('gotham-thin.eot');
+    src: url('gotham-thin.eot') format('embedded-opentype'),
+         url('gotham-thin.svg#GothamThin') format('svg'),
+         url('gotham-thin.woff') format('woff'),
+         url('gotham-thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 100;
+    src: url('gotham-xlight.eot');
+    src: url('gotham-xlight.eot') format('embedded-opentype'),
+         url('gotham-xlight.svg#GothamExtraLight') format('svg'),
+         url('gotham-xlight.woff') format('woff'),
+         url('gotham-xlight.ttf') format('truetype');
+}
