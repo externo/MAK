@@ -1,5 +1,5 @@
 app.controller('introCtrl', ['$scope', function ($scope) {
-    $("#menu").remove();
+    $("#menu").hide();
     $(".variation")
         .hover(function(){
             $(this).width("31%");
