@@ -1,0 +1,21 @@
+<section id="work" class="col-ms-12 col-sm-12 col-md-9">
+    <div class="offset">
+        <div class="columns">
+
+            <!-- slider container -->
+            <div class="slider">
+                <!-- enumerate all photos -->
+                <img ng-repeat="photo in photos" ng-show="isActive($index)" ng-src="{{photo.src}}" />
+            </div>
+
+            <!-- extra navigation controls -->
+            <ul class="nav">
+                <li ng-repeat="photo in photos" ng-class="{'active':isActive($index)}">
+                    <img src="{{photo.src}}" ng-click="showPhoto($index);" />
+                </li>
+            </ul>
+            <!-- slider container -->
+
+        </div>
+    </div>
+</section>

@@ -28,23 +28,38 @@
 ================================================== */
 	body {
 		background: #ffffff;
-		font: 14px/21px "Gotham", sans-serif;
+		font: 14px/21px "Cirpnova", sans-serif;
 		color: #777777;
 		-webkit-font-smoothing: antialiased;
 		-webkit-text-size-adjust: 100%;
  }
 
-	#image{
-		background-image: url("../images/background/1.jpg");
+#women{
+	background-image: url("../images/background/1.jpg");
 
-	}
+}
+
+#men{
+	background-image: url("../images/background/2.jpg");
+
+}
+
+#children{
+	background-image: url("../images/background/3.jpg");
+
+}
+
+#love{
+	background-image: url("../images/background/4.jpg");
+
+}
 
 
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #000000;
-		font-family: 'Gotham';
+		font-family: 'Cirpnova';
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -71,7 +86,7 @@
 		background-repeat: no-repeat;
 		background-size: 73px 55px;
 		color: #5c5c5c;
-		font-family: "Gotham";
+		font-family: "Cirpnova";
 		font-size: 18px;
 		line-height: 30px;
 		margin: 100px 0px;
@@ -129,7 +144,7 @@
 		color: #000000;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Gotham";
+		font-family: "Cirpnova";
 		font-size: 13px;
 		font-weight: 400;
 		outline:none;
@@ -338,7 +353,7 @@
 	}
 
 	.offset {
-		padding: 200px 0px;
+		padding: 100px 0px;
 	}
 
 	.wrapper {	
@@ -385,7 +400,7 @@
 		background-repeat: no-repeat;
 		background-size: 6px 9px;
 		color: #000000;
-		font-family: 'Gotham';
+		font-family: 'Cirpnova';
 		font-size: 13px;
 		font-weight: bold;
 		padding-bottom: 7px;
@@ -404,7 +419,7 @@
 		background-repeat: no-repeat;
 		background-size: 6px 9px;
 		color: #000000;
-		font-family: 'Gotham';
+		font-family: 'Cirpnova';
 		font-size: 13px;
 		font-weight: bold;
 		padding-bottom: 7px;
