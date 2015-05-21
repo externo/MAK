@@ -22,5 +22,5 @@ app.config(function ($routeProvider) {
             controller: '',
             templateUrl: 'templates/forme.html'})
         .otherwise({
-            redirectTo : '/'});
+            redirectTo : '/forme'});
 });
