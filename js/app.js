@@ -21,6 +21,9 @@ app.config(function ($routeProvider) {
         .when('/forme', {
             controller: '',
             templateUrl: 'templates/forme.html'})
+        .when('/prices', {
+            controller: '',
+            templateUrl: 'templates/prices.html'})
         .otherwise({
             redirectTo : '/forme'});
 });

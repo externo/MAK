@@ -2,8 +2,25 @@
     background-color: black;
 }
 
+.forme{
+    margin: 10px;
+    padding: 20px;
+}
+
+.forme span{
+    font-family: Cirpnova;
+    font-size: 2em;
+    color: papayawhip;
+}
+
+.forme p{
+    font-family: Cirpnova;
+    font-size: 1.6em;
+    color: whitesmoke;
+}
+
 #menu{
-    margin-top: 150px;
+    margin-top: 100px;
     padding-left: 130px;
     font-family: Cirpnova;
     font-size: 3.5em;
