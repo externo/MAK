@@ -1,35 +1,6 @@
 var windowHeight;
 var windowWidth;
 
-//jQuery(document).ready(function($) {
-//   'use strict';
-//
-//	$(".variation").click(function(){
-//		var url = $(this).attr("data-url");
-//		window.open(url, "_self");
-//	});
-//
-//	$(".demo .variation").each(function() {
-//		var f = "./images/background/";
-//		var i = $(".demo .variation").index(this) + 1;
-//		$(this).css("background-image", "url("+f+i+".jpg)");
-//	});
-//
-//
-//	var c = $(".demo .variation").length;
-//	$(".demo .variation").hover(function(e){
-//		if (windowWidth > 768) {
-//			$(this).siblings().css("width", "30%");
-//			$(this).css("width", "40%");
-//		}
-//	}, function(){
-//		if (windowWidth > 768) {
-//			$(".demo .variation").css("width", 100/c + "%");
-//		}
-//	});
-//});
-
-
 $(window).load(function() {
 	fixSizes();
 	$(".loader").delay(1000).fadeOut('slow');

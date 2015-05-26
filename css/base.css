@@ -295,11 +295,11 @@
 ================================================== */
 
 	.loader {
-		background-color: #111111;
+		background-color: #111;
 		background-image: url(../images/loader.gif);
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: 40px 40px;
+		/*background-size: 40px 40px;*/
 		bottom: 0px;
 		left: 0px;
 		position: fixed;
@@ -466,3 +466,10 @@
 	.half-bottom { margin-bottom: 10px !important; }
 
 	.add-bottom { margin-bottom: 20px !important; }
+	
+	article{
+		background-image: url("../images/bg-repeat.jpg");
+		color: brown;
+		margin: 20px auto;
+		max-width: 600px;
+	}

@@ -25,5 +25,5 @@ app.config(function ($routeProvider) {
             controller: '',
             templateUrl: 'templates/prices.html'})
         .otherwise({
-            redirectTo : '/forme'});
+            redirectTo : '/prices'});
 });
