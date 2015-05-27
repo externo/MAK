@@ -3,9 +3,9 @@
 var app = angular.module('App', ['ngRoute']);
 app.config(function ($routeProvider) {
     $routeProvider
-        .when('/', {
-            controller: 'introCtrl',
-            templateUrl: 'templates/intro.html'})
+        //.when('/', {
+        //    controller: 'introCtrl',
+        //    templateUrl: 'templates/intro.html'})
         .when('/children', {
             controller: 'childrenCtrl',
             templateUrl: 'templates/home.html'})
@@ -18,7 +18,7 @@ app.config(function ($routeProvider) {
         .when('/love', {
             controller: 'loveCtrl',
             templateUrl: 'templates/home.html'})
-        .when('/forme', {
+        .when('/', {
             controller: '',
             templateUrl: 'templates/forme.html'})
         .when('/prices', {
