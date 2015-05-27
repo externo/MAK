@@ -6,6 +6,9 @@ app.config(function ($routeProvider) {
         //.when('/', {
         //    controller: 'introCtrl',
         //    templateUrl: 'templates/intro.html'})
+        //.when('/', {
+        //    controller: 'womenCtrl',
+        //    templateUrl: 'templates/slider.html'})
         .when('/children', {
             controller: 'childrenCtrl',
             templateUrl: 'templates/home.html'})
