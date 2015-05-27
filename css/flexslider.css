@@ -36,8 +36,12 @@
   display: none;
   -webkit-backface-visibility: hidden;
 }
-.flexslider .slides img {
+#slider img {
   margin: 0 auto;
+  display: block;
+}
+#carousel img {
+  width: 100%;
   display: block;
 }
 .flexslider .slides:after {

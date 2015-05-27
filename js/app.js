@@ -21,7 +21,7 @@ app.config(function ($routeProvider) {
         .when('/love', {
             controller: 'loveCtrl',
             templateUrl: 'templates/home.html'})
-        .when('/', {
+        .when('/forme', {
             controller: '',
             templateUrl: 'templates/forme.html'})
         .when('/prices', {
