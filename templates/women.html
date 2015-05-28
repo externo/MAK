@@ -1,0 +1,20 @@
+<div id="container" class="col-ms-12 col-sm-12 col-md-9">
+    <div id="main" role="main">
+        <section class="slider">
+            <div id="slider" class="flexslider">
+                <ul class="slides">
+                    <li data-ng-repeat="photo in photos">
+                        <img ng-src="{{photo.src}}" />
+                    </li>
+                </ul>
+            </div>
+            <div id="carousel" class="flexslider">
+                <ul class="slides">
+                    <li data-ng-repeat="photo in photos">
+                        <img ng-src="{{photo.src}}" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</div>

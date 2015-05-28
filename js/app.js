@@ -1,6 +1,8 @@
 'use strict';
 
-var app = angular.module('App', ['ngRoute']);
+var app = angular.module('App', ['ngRoute']).run(['$route', function($route)  {
+    $route.reload();
+}]);
 app.config(function ($routeProvider) {
     $routeProvider
         //.when('/', {
@@ -11,10 +13,10 @@ app.config(function ($routeProvider) {
             templateUrl: 'templates/home.html'})
         .when('/women', {
             controller: 'womenCtrl',
-            templateUrl: 'templates/home.html'})
+            templateUrl: 'templates/women.html'})
         .when('/men', {
             controller: 'menCtrl',
-            templateUrl: 'templates/home.html'})
+            templateUrl: 'templates/men.html'})
         .when('/love', {
             controller: 'loveCtrl',
             templateUrl: 'templates/home.html'})
